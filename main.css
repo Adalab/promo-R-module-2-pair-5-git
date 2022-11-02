@@ -1,8 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .head {
   background: #fc0;
   height: 100px;
   position: relative;
   width: 100px;
+  border-radius: 50%;
 }
 .face {
   font-family: 'courier new', serif;
